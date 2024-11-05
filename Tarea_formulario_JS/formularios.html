@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel" />
+    <link rel="stylesheet" href="estilos2.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <label>Nombre completo:</label><!--Datos de entrada-->
+        <div class="datoEntrada" id="nombre">
+        <input type="text" placeholder="Nombre">
+        </div>
+        <br> <!--Salto de linea-->
+        <label for="correo"> Ingresa tu email:</label>
+        <div class="datoEntrada" id="email"> 
+        <input type="email" placeholder="Correo">
+        </div>
+        <br>
+        <label>Contraseña: </label>
+        <div class="datoEntrada" id="password">
+        <input type="password" placeholder="Contraseña">
+        </div>
+        <br>
+<!--     
+        <br>
+        <label>Adjuntar archivo:</label>
+        <center><input type="submit"></center>
+        <br>
+-->
+        <label>Caile con tu fecha de nacimiento:</label>
+        <div class="datoEntrada" id="fechaNam">
+        <input type="date">
+        </div>
+        <br>
+        <label>Telefono: </label>
+        <div class="datoEntrada" id="tel">
+        <input type="tel">
+        </div>
+        <br>
+<!-- 
+        <br>
+        <label>Adjunta tu comprobante: </label>
+        <center><input type="button" value="Abrir"></center>
+        <br>
+-->
+        <label>Términos y condiciones: </label>
+        <input type="checkbox">
+        <br>
+        <label></label>
+        <input type="text">
+        <label>Quieres recibir promociones</label>
+        <input type="radio">
+        <div class="boton">
+            <center>
+            <button id="registrarse" type="submit">Registro</button>
+            <!-- <button id="registrarse" type="submit">Enviar </button> -->
+            </center>
+        </div>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
