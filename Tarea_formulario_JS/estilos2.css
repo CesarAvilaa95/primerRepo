@@ -1,0 +1,79 @@
+/* estilos.css */
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: cyan; /* Fondo suave y agradable */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px; /* Asegura que esté cerca de la parte superior */
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px #0c3f52;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Espacio entre el h1 y el formulario */
+}
+
+label {
+    font-size: 1em;
+    color: #2e2d2d;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: #f0f3f5;
+}
+
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+center {
+    display: block;
+    margin-top: 20px;
+}
